@@ -10,7 +10,7 @@ typedef  struct node node;
 node *head,*temp,*tail,*prev,*next,*current ;
 
 int main(){
-    int arr[5]={2,3,4,5,6,7};
+    int arr[5]={2,3,4,5,6};
 head =malloc(sizeof(node));
 tail=head;
 head->data=arr[0];
